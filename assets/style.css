@@ -325,6 +325,7 @@ html {
     border: none;
     /*thay đổi dấu mui tên thành bàn tay*/
     cursor: pointer;
+    -webkit-appearance: none
 
 }
 .place-buy-btn:hover{

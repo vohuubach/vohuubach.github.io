@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--phần đầu-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewMember</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <!--add css vào-->
+    <link rel="stylesheet" href="/assets/style.css">
+    <link rel="stylesheet" href="/assets/response.css">
+
+    <!-- link themify icon-->
+    <link rel="stylesheet" href="/themify-icons/themify-icons.css">
+</head>
+<!-- Phần thân có 4 vị trí header,slider,content, footer -->
+<!-- trong content gồm 4 thành phần làtext-content,Tour-content,ConTact-->
+<body>
+    <div id="main">
+        <div id="header">
+            <!-- begin nav-->
+            <ul id="nav">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#band">BAND</a></li>
+                <li><a href="#tour">TOUR</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                <li>
+                    <a href="#">MORE
+                        <i class="nav-arrow ti-angle-down"></i>
+                   </a>
+                   <!--đi vào từ thẻ subnav tới a-->
+                    <ul class="subnav">
+                        <li><a href="#">Merchandise</a></li>
+                        <li><a href="">Extras</a></li>
+                        <li><a href="">Media</a></li>
+                    </ul>
+                    <!-- end nav-->
+                </li>
+            </ul>
+              <!-- begin button-->
+            <div class="button">
+                <i class="search ti-search"></i>
+            </div>
+            
+            <div id="mobile-menu" class="mobile-ti-menu">
+                <i class="menu ti-menu"></i>
+            </div>
+        </div>
+
+        <div id="slider">
+            <div class="text-content">
+                <h2 class="text-newyork">New York</h2>
+                <div class="text-chu">The atmosphere in New York is lorem ipsum.
+                </div>
+            </div>
+        </div>
+
+        <div id="content">
+            <!--About section-->
+            <div id="band" class="text-content">
+                <h2 class="text-band">THE BAND</h2>
+                <p class="text-music">We love music</p>
+                <p class="text-p">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <div id="row content-1">
+                    <div class="member col col-third mt-32 text-center">
+                        <p class="meber-name">name</p>
+                        <img src="/assets/img/bandmember.jpg" alt="name" class="meber-img">
+                    </div>
+                    <div class="member col col-third mt-32 text-center">
+                        <p class="meber-name">name</p>
+                        <img src="/assets/img/bandmember.jpg" alt="name" class="meber-img">
+                    </div>
+                    <div class="member col col-third mt-32 text-center">
+                        <p class="meber-name">name</p>
+                        <img src="/assets/img/bandmember.jpg" alt="name" class="meber-img">
+                    </div>
+                    <div class="clear">
+                    </div>
+                </div>
+           </div>
+           
+                  <!-- Tour section-->
+            <div id="tour" class="Tour-section">
+                <div class="text-content">
+                    <h2 class="text-band template">TOUR DATER</h2>
+                    <p class="text-music template">Remember to book your tickets!</p>
+                    <p class="text-p"></p>
+                    
+                    <!-- ticket-->
+                    <ul class="tickets-list">
+                        <li>September: <span class="solt-out">solt-out</span></li>
+                        <li>October: <span class="solt-out">solt-out</span></li>
+                        <li>November: <span class="quantity">3</span></li>
+                    </ul>
+                    <!-- dia diem(places)-->
+                    <div class=" row place-list">
+                        <div class="memberhai mt-32 col col-third">
+                            <img src="/assets/img/newyork.jpg" alt="NewYork" class="image-newyork">
+                            <div class="place-body">
+                                <h3 class="place-heading">NewYork</h3>
+                                <p class="place-time">Fri 27 Nov 2016</p>
+                                <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <button class="place-buy-btn js-buy-ticket s-full-buy">Buy Tickets</button>
+                            </div>
+                        </div>
+                        <div class="memberhai mt-32 col col-third">
+                            <img src="/assets/img/paris.jpg" alt="Paris" class="image-newyork">
+                            <div class="place-body">
+                                <h3 class="place-heading">Paris</h3>
+                                <p class="place-time">Sat 28 Nov 2016</p>
+                                <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <button class="place-buy-btn js-buy-ticket s-full-buy">Buy Tickets</button>
+                            </div>
+                        </div>
+                        <div class="memberhai mt-32 col col-third">
+                            <img src="/assets/img/sanfran.jpg" alt="Sanfrancisco" class="image-newyork">
+                            <div class="place-body">
+                                <h3 class="place-heading">SanFrancisco</h3>
+                                <p class="place-time">Sun 29 Nov 2016</p>
+                                <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <button class="place-buy-btn js-buy-ticket s-full-buy">Buy Tickets</button>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+            <!--Begin: CONTACT section-->       
+        <div id="contact" class="text-content">
+            <h2 class="text-band">CONTACT</h2>
+            <p class="text-music">Fan? Drop a note!</p>
+            <p class="text-p"></p>
+            <div class="row contact-content">
+                <div class="col col-half memberhai content-font">
+                    <p><i class="ti-location-pin"></i>Hue, VN</p>
+                    <p><i class="ti-mobile"></i>Phone:<a href="tel:0858224357">0858224357</a></p>
+                    <p><i class="ti-email"></i>Email:<a href="mailto:vohuubach1998@gmail.com">vohuubach1998@gmail.com</a></p>
+                </div> 
+
+                <div class="col col-half memberhai content-fontsize">
+                    <form action="">
+                        <div class="row">
+                                <div class="col col-half memberhai">
+                                    <input type="text" name="" id="" placeholder="Name" required class="font-control">
+                                </div>
+                                <div class="col col-half memberhai s-mt-8">
+                                    <input type="email" name="" id="" placeholder="Email" required class="font-control">
+                                </div>
+                                <div class="clear"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col col-full s-mt-8">
+                                <input type="text" name="" id="" placeholder="Message"class="font-control margin-mess">
+                            </div>
+                        </div>
+
+                        <div>
+                            <input type="submit" value="SEND" class="font-SEND s-full-width">
+                        </div>
+                    </form>
+                </div> 
+            </div>         
+        </div>
+        <!--End: CONTACT section-->
+        <div class="map-seclection">
+           <img src="/assets/img/map.jpg" alt="Map" class="footer-map">
+        </div>  
+        <div id="footer">
+            <div class="icon-list text-center">
+                <a href=""><i class="ti-facebook"></i></a>
+                <a href=""><i class="ti-instagram"></i></a>
+                <a href=""><i class="ti-pinterest"></i></a>
+                <a href=""><i class="ti-twitter"></i></a>
+                <a href=""><i class="ti-email"></i></a>
+                <a href=""><i class="ti-linkedin"></i></a>
+            </div>
+            <div>
+                <p class="copyright text-center">Powered by VO HUU BACH</p>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <!--Tạo giao diện kích nut-->
+    <div id="modal" class="modal js-modal">
+        <div class="modal-contains js-modal-contains">
+            <div class="modal-close js-modal-close">
+                <i class="ti-close"></i>
+            </div>   
+
+            <header class="head-modal">
+                <i class="ti-bag"></i>
+                Tickets
+            </header>
+
+            <div class="modal-body">
+                <label for="quantity" class="modal-label">
+                    <i class="ti-shopping-cart"></i>
+                    Tickets, $15 per person
+                </label>
+                <input id="quantity" type="text" class="modal-input" placeholder="How many">
+                     
+                <label for="email" class="modal-label">
+                    <i class="ti-user"></i>
+                    Send To
+                </label>
+                <input id="email" type="email" class="modal-input" placeholder="Enter">
+    
+                <button id="buy-ticket">
+                    Pay <i class="ti-check"></i>
+                </button>
+            </div>
+
+            <footer class="modal-footer">
+                <p class="modal-help">Need <a href="#">help</a></p>
+            </footer>
+    
+        </div>
+    </div>
+    
+    <script>
+        /* khơi tao hằng số với nhiều nut*/
+        const buyButtons=document.querySelectorAll('.js-buy-ticket')
+        // khơi tạo giá trị hằng số với 1 nút đơn
+        const modal=document.querySelector('.js-modal')
+        const modalClose=document.querySelector('.js-modal-close')
+        const modalContains=document.querySelector('.js-modal-contains')
+
+        /* sư dụng hàm function để truyefn tham số vào với giá trị gán ban đâu*/
+        // hàm hiển thị khi kich vào buyticket
+        function ShowBuy(){
+            modal.classList.add('open')
+        }
+        //hàm tắt đi khi tắt vào nut close
+        function hibuyticket(){
+            modal.classList.remove('open')
+        }
+        /* sử dụng vòng lặp for để lặp qua từng giá trị*/
+        for(const buyButton of buyButtons){
+            buyButton.addEventListener('click', ShowBuy)
+        }
+
+       modalClose.addEventListener('click', hibuyticket)
+       //tắt giá trị khi kích ra khoảng trắng kết hợp với modalcontains để khi kích trong vùng k bị đá ra ngoài
+       modal.addEventListener('click', hibuyticket)
+       //click kết hợp truyền vào tham số funcition(){})
+       modalContains.addEventListener('click', function(event){
+           event.stopPropagation()
+       })
+        
+
+    </script>
+    <script>
+        var header=document.getElementById('header');
+        var mobileMenu=document.getElementById('mobile-menu');
+        //gán giá trị clientHeight
+        var headerHeight = header.clientHeight;
+        // đong/ mỡ/mobile menu//
+        //gán giá trị tắt bằng var isClose=header.clientHeight===giatri
+        mobileMenu.onclick= function(){
+        var isClosed=header.clientHeight===headerHeight;
+        //nêu tắt thig header.style sẽ sữa giá trị
+        if(isClosed){
+            header.style.height='auto';
+        }
+        else{
+            header.style.height=null;
+        }
+        
+        }
+        //tự động đóng khi chọn menu
+        var menuItems= document.querySelectorAll('#nav li a[href*="#"]')
+        //console.log(menuItems)
+        for( var i=0; i < menuItems.length; i++){
+            var menuItem=menuItems[i];
+            menuItem.onclick=function(event){
+                var keomenukbitat=this.nextElementSibling && this.nextElementSibling.classList('subnav');
+                if(keomenukbitat){
+                    event.preventDefault();
+                }
+                else{
+                header.style.height=null;
+            }
+        }
+        }
+
+    </script>
+    
+</body>
+</html>

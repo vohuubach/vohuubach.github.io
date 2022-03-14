@@ -1,0 +1,99 @@
+/* giao dien cho mobile*/
+@media(max-width:740px){
+    #nav{
+        display: block;
+    }
+    #nav > li{
+        display: block;
+    }
+    #nav > li:first-child{
+        display: inline-block;
+
+    }
+    #nav .subnav{
+        position: initial;
+        background-color: #000;
+        
+    }
+    #nav .subnav a{
+        padding: 0 35px;
+        color: #fff;
+    }
+    #nav .subnav li{
+        color: #fff;
+    }
+    #header{
+        overflow: hidden;
+    }
+    #header .mobile-ti-menu{
+        display: block;
+    }
+    #header .button{
+        display: none;
+    }
+    #content .member{
+        margin-top: 30px;
+        width: 100%;
+    
+    }
+    #content .meber-img{
+        width: 60%;
+    }
+    .memberhai{
+        width:100% !important;
+    }
+    .content-form{
+        margin-top: 16px;
+    }
+    .s-mt-8{
+        margin-top: 8px !important;
+    }
+    .s-full-width{
+        width: 100% !important;
+    }
+    .s-full-buy{
+        width: 100%;
+        padding: 16px;
+        text-align: center;
+    }
+    
+}
+/* table */
+@media (min-width:740px) and (max-width:1023px){
+    .content-font{
+        line-height: 1.9;
+    }
+}
+/*Table && mobiel*/
+@media(max-width:1023px){
+    /* tăng nút bấm*/
+    .place-buy-btn{
+        padding: 15px;
+        text-align: center;
+    }
+    .font-control{
+        padding: 15px 16px ;
+        
+    }
+    .margin-mess{
+        margin-top: 16px;
+    }.font-SEND{
+        width: 25%;
+        padding: 15px;
+    }
+    .font-control{
+        display: initial;
+    }
+    .icon-list{
+        font-size: 48px;
+    }
+    #footer .icon-list{
+        margin: 0 8px;
+    }
+    #footer .copyright{
+        font-size: 28px;
+    }
+
+
+
+}

@@ -1,5 +1,5 @@
 /* giao dien cho mobile*/
-@media(max-width:740px){
+@media(max-width:739px){
     #nav{
         display: block;
     }
@@ -71,8 +71,10 @@
         padding: 15px;
         text-align: center;
     }
+
     .font-control{
         padding: 15px 16px ;
+        font-size: 15px;
         
     }
     .margin-mess{
@@ -85,13 +87,17 @@
         display: initial;
     }
     .icon-list{
-        font-size: 48px;
+        font-size: 30px;
     }
     #footer .icon-list{
         margin: 0 8px;
     }
     #footer .copyright{
-        font-size: 28px;
+        font-size: 22px;
+    }
+    .contact-fontsize{
+        font-size: 15px;
+
     }
 
 

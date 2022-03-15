@@ -164,7 +164,7 @@ html {
     margin-top: 46px;
     padding-top: 50%;
 
-    background: url('/assets/img/chicago.jpg') top center / cover no-repeat;
+    background: url('../img/chicago.jpg') top center / cover no-repeat;
 }
 #slider .text-content {
     /* vị trí tuyệt đối là hàm con nằm trong slider*/
@@ -209,9 +209,10 @@ html {
 .text-music{
     font-size: 15px;
     text-align: center;
-    margin-bottom: 25px;
+    margin-top:20px;
     /*đặt kiểu cho phông chữ*/
     font-style: italic;
+    /*text-shadow: 0 0 1px #000;*/
 }
 #content .text-p{
     margin:25px 0;
@@ -325,6 +326,8 @@ html {
     border: none;
     /*thay đổi dấu mui tên thành bàn tay*/
     cursor: pointer;
+    -webkit-appearance: none;
+
 
 }
 .place-buy-btn:hover{
@@ -461,7 +464,7 @@ html {
     display: inline-block;
 }
 .content-fontsize{
-    font-size: 15px;
+    font-size: 16px;
 }
 .content-fontsize .font-control{
     width: 100%;
@@ -492,7 +495,7 @@ html {
 }
 #footer{
 
-    padding: 64px 16px; 
+    padding: 55px 10px; 
 
 } 
 .copyright{
@@ -502,13 +505,12 @@ html {
      
 }
 .icon-list{
-    font-size: 24px;
+    font-size: 22px;
     color: #000;
 
 
 }.icon-list a{
     color: rgba(0, 0, 0, 0.5);
-
     text-decoration: none;
 }
 #footer .icon-list a a{

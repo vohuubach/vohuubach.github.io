@@ -303,7 +303,7 @@ body{
 }
 
 .playlist_contains{
-    margin-top: 408px;
+    margin-top: 418px;
     padding: 12px;
 
 
@@ -369,14 +369,14 @@ body{
 
     
    .playlist_contains {
-    margin-top: 410px;
+    margin-top: 418px;
     padding: 12px;
 }
 } 
  @media only screen and (min-width:720px) and (max-width:1023px){
 
     .playlist_contains {
-        margin-top: 410px;
+        margin-top: 418px;
         padding: 12px;
     }
     

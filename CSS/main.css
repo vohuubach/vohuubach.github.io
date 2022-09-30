@@ -194,6 +194,7 @@ body{
     /* cursor: pointer; */
     height: 36px;
     font-size: 17px;
+    cursor: pointer;
 
 }
 .volume__icon--mute{

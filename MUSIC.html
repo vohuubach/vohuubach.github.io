@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./CSS/main.css">
+    <link rel="stylesheet" href="./CSS/base.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/fonts/FontAwesome_Pro/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>MUSIC</title>
+</head>
+<body>
+    <div class="player">
+        <!-- Dasboard -->
+        <div class="dasboard">
+            <!-- Header -->
+            <header class="music-card__header">
+                <!-- <span class="list-music__icon">
+                    <i class="fa-solid fa-list-music"></i>
+                    <span class="tooltip tooltip-playlist">Show Playlist</span>
+                </span> -->
+                <h2 class="title">Show Playing</h2>
+                <!-- <span class="favourite">
+                    <i class="fa-regular fa-heart heart-icon"></i>
+                    <i class="fa-solid fa-heart heart-icon-red"></i>
+                    <span class="tooltip tooltip-favourite">Add Favourite</span>
+                </span> -->
+            </header>
+
+            <!-- CD -->
+            <div class="cd_athumb">
+                <div class="cd_authumd_css" style="background-image: url('https://i.ytimg.com/vi/jTLhQf5KJSc/maxresdefault.jpg')"></div>
+            </div> 
+            <!-- control -->
+            <div class="control">
+                <div class="btn btn__random">
+                    <i class="fas fa-random"></i>
+                  </div>
+                  <div class="btn btn__previous">
+                    <i class="fas fa-step-backward"></i>
+                  </div>
+                  <div class="btn btn__play">
+                    <i class="fas fa-play icon-play btn__play--play-icon"></i>
+                    <i class="fas fa-pause icon-pause btn__play--pause-icon"></i>
+                    
+                  </div>
+                  <div class="btn btn__next">
+                    <i class="fas fa-step-forward"></i>
+                  </div>
+                  <div class="btn btn__repeat">
+                    <i class="fas fa-redo"></i>
+                    <!-- <i class="fa-solid fa-repeat-1 btn__repeat-on"></i> -->
+                  </div>
+            </div>
+            <!-- volume -->
+            <div class="volume-change">
+                <div class="volume">
+                  <i class="fa-solid fa-volume-high volume__icon"></i>
+                  <i class="fa-solid fa-volume-xmark volume__icon--mute"></i>
+                  <!-- <i class='fa-solid fa-volume-high'></i> -->
+                </div>
+                <div class="volume-bar">
+                    <input class="volume-bar__value" type="range" value="0" step="1" min="0" max="100">
+                </div>
+            </div>
+
+            <input id="progress" class="progress" type="range" value="0" step="1" min="0" max="100">
+            <div class="progress-time">
+                <span class="progress-time__current-time">00:00</span>
+                <span class="progress-time__duration">04:00</span>
+            </div>
+
+            <audio id="audio" src=""></audio>  
+        </div>
+        <!-- playlist -->
+        <div class="playlist_contains"></div>
+    </div>
+
+    <script src="./JS/app.js"></script>
+</body>
+</html>
